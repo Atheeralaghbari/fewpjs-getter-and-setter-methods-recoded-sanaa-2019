@@ -16,3 +16,4 @@ class circle{
     return Math.PI*Math.sqrt(this.radius)
   }
 }
+let radius=new circle();
