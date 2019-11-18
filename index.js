@@ -6,6 +6,9 @@ class circle{
   set radius(radius){
     this._radius=radius;
   }
+  get radius(radius){
+    treturn his.radius=radius;
+  }
   get diameter(){
     return this.radius*Math.PI
   }
