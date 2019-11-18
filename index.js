@@ -6,7 +6,7 @@ class circle{
   set radius(radius){
     this.radius=radius;
   }
-  get radius(radius){
+  get radius(){
     return this.radius;
   }
   get diameter(){
