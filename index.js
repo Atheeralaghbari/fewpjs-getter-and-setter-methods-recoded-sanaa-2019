@@ -10,6 +10,6 @@ class circle{
     return Math.PI*this.diameter;
   }
   get area (){
-    
+    return Math.PI*Math.sqrt(this.radius)
   }
 }
