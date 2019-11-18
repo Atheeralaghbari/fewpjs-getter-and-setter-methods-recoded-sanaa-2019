@@ -3,7 +3,7 @@ class circle{
   constructor(radius){
     this.radius=radius;
   }
-  set radius(){
+  set radius(radius){
     this._radius=radius;
   }
   get diameter(){
